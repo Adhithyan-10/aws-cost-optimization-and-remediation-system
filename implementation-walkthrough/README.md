@@ -86,7 +86,7 @@ This triggered both email notifications and Lambda execution successfully.
 
 ## Step 10 – CloudWatch Logs (Dry Run)
 
-![CloudWatch Logs Dry Run](10-CLOUDWATCH-LOGS-(DRY RUN).png)
+![CloudWatch Logs Dry Run](10-CLOUDWATCH-LOGS-(DRY-RUN).png)
 
 The Lambda function was initially tested in Dry Run mode.  
 The logs confirmed that the EC2 instance was detected successfully without actually stopping it.
@@ -95,7 +95,7 @@ The logs confirmed that the EC2 instance was detected successfully without actua
 
 ## Step 11 – CloudWatch Logs (Real Execution)
 
-![CloudWatch Logs Real Execution](11-CLOUDWATCH-LOGS-(REAL EXECUTION).png)
+![CloudWatch Logs Real Execution](11-CLOUDWATCH-LOGS-(REAL-EXECUTION).png)
 
 After successful validation, Dry Run mode was disabled for real execution testing.  
 The logs confirm that Lambda successfully stopped the running EC2 instance.
